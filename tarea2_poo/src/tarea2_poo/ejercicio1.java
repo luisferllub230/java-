@@ -32,7 +32,6 @@ public class ejercicio1 {
 		Persona7.p7accion2("en el mostrador");
 		Persona7.p7accion3("hablando con el duenio");
 	}
-
 }
 
 class persona{
