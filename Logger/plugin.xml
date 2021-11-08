@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="com.yattasolutions.codegen.oaw.templateProvider">
+      <templateFolder folder="/"></templateFolder>
+   </extension>
+   <extension
+         point="org.eclipse.emf.ecore.uri_mapping">
+      <mapping
+            source="pathmap://LOGGER_PROFILES/"
+            target="platform:/plugin/Logger/uml/">
+      </mapping>
+   </extension>
+   <extension
+         point="com.yattasolutions.umllab.profileProvider">
+      <profile
+            rootPackage="LOGGERStyle"
+            uri="pathmap://LOGGER_PROFILES/Logger.profile.uml">
+      </profile>
+   </extension>
+   <extension
+         point="com.yattasolutions.codegen.reverse.codestyleFeatureConvention">
+      <profile
+            name="LOGGERStyle">
+      </profile>
+   </extension>
+</plugin>

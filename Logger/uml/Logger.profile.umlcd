@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_QPiNwAfxEeKQUp0je9FVfg">
+  <modelElement href="Logger.profile.uml#LOGGERStyle"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:ExtensionVisual" xmi:id="_QRjnAAfxEeKQUp0je9FVfg" sourceAnchor="42.0,0.0" targetAnchor="37.0,76.0" stereotype="_QRf8oAfxEeKQUp0je9FVfg" metaclass="_Q_kjkAfxEeKQUp0je9FVfg">
+    <modelElement href="Logger.profile.uml#LOGGERStyle-Property_ValueChecked"/>
+    <visualProperties xmi:id="_QRjnAQfxEeKQUp0je9FVfg" position="90.0,90.0"/>
+    <nameVisual xmi:id="_QRjnAgfxEeKQUp0je9FVfg" text="Property_ValueChecked"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Q-51MAfxEeKQUp0je9FVfg" sourceAnchor="37.0,0.0" targetAnchor="75.0,68.0" target="_Q_kjkAfxEeKQUp0je9FVfg" source="_Q_kjkAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#A_qualifier_associationEnd"/>
+    <visualProperties xmi:id="_Uy65YAfxEeKQUp0je9FVfg" visible="false"/>
+    <bendpoints xmi:id="_TRdtsAfxEeKQUp0je9FVfg" sourceY="-107" targetX="-38" targetY="-175"/>
+    <bendpoints xmi:id="_TRdtsQfxEeKQUp0je9FVfg" sourceX="145" sourceY="-107" targetX="107" targetY="-175"/>
+    <bendpoints xmi:id="_TReUwAfxEeKQUp0je9FVfg" sourceX="145" sourceY="68" targetX="107"/>
+    <nameVisual xmi:id="_Q-7qYQfxEeKQUp0je9FVfg" text="A_qualifier_associationEnd">
+      <visualProperties xmi:id="_RLopoAfxEeKQUp0je9FVfg" position="2.0,99.75"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Q-7qYgfxEeKQUp0je9FVfg" comments="_Q_WhIAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_WhIQfxEeKQUp0je9FVfg" name="qualifier" navigable="true">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-qualifier"/>
+      <visualProperties xmi:id="_RLnbgAfxEeKQUp0je9FVfg" position="121.0,27.0"/>
+      <visibility xmi:id="_Q_XIMAfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_WhIgfxEeKQUp0je9FVfg" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Q-8RcAfxEeKQUp0je9FVfg" comments="_Q_MwIgfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_NXMAfxEeKQUp0je9FVfg" aggregationKind="NONE" name="associationEnd" navigable="true">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-associationEnd"/>
+      <visualProperties xmi:id="_RLopoQfxEeKQUp0je9FVfg" position="-143.5,-121.5"/>
+      <visibility xmi:id="_Q_XIMgfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_XIMQfxEeKQUp0je9FVfg" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Q-7qYAfxEeKQUp0je9FVfg" sourceAnchor="7.0,0.0" targetAnchor="75.0,8.0" target="_Q_kjkAfxEeKQUp0je9FVfg" source="_Q_kjkAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#A_opposite_property"/>
+    <visualProperties xmi:id="_Uy7gcQfxEeKQUp0je9FVfg" visible="false"/>
+    <bendpoints xmi:id="_TReUwQfxEeKQUp0je9FVfg" sourceY="-137" targetX="-68" targetY="-145"/>
+    <bendpoints xmi:id="_TRe70AfxEeKQUp0je9FVfg" sourceX="92" sourceY="-137" targetX="24" targetY="-145"/>
+    <bendpoints xmi:id="_TRe70QfxEeKQUp0je9FVfg" sourceX="92" sourceY="8" targetX="24"/>
+    <nameVisual xmi:id="_Q_VTAgfxEeKQUp0je9FVfg" text="A_opposite_property">
+      <visualProperties xmi:id="_RLqe0AfxEeKQUp0je9FVfg" position="-218.5,61.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Q_VTAwfxEeKQUp0je9FVfg" comments="_Q_VTAAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_VTAQfxEeKQUp0je9FVfg" aggregationKind="NONE" derived="true" name="opposite" navigable="true">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-opposite"/>
+      <visualProperties xmi:id="_RLp3wAfxEeKQUp0je9FVfg" position="-72.5,-115.99999999999997"/>
+      <visibility xmi:id="_Q_fEAQfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_fEAAfxEeKQUp0je9FVfg" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Q_V6EAfxEeKQUp0je9FVfg" aggregationKind="NONE" name="property">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#A_opposite_property-property"/>
+      <visualProperties xmi:id="_RLrF4AfxEeKQUp0je9FVfg" position="26.5,-122.4"/>
+      <visibility xmi:id="_Q_frEQfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_frEAfxEeKQUp0je9FVfg" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Q-8RcQfxEeKQUp0je9FVfg" sourceAnchor="0.0,38.0" targetAnchor="10.0,76.0" target="_Q_kjkAfxEeKQUp0je9FVfg" source="_Q_kjkAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#A_redefinedProperty_property"/>
+    <visualProperties xmi:id="_Uy8HgAfxEeKQUp0je9FVfg" visible="false"/>
+    <bendpoints xmi:id="_TRe70gfxEeKQUp0je9FVfg" sourceX="-38" targetX="-48" targetY="-38"/>
+    <bendpoints xmi:id="_TRfi4AfxEeKQUp0je9FVfg" sourceX="-38" sourceY="75" targetX="-48" targetY="37"/>
+    <bendpoints xmi:id="_TRfi4QfxEeKQUp0je9FVfg" sourceX="10" sourceY="75" targetY="37"/>
+    <nameVisual xmi:id="_Q_XvQgfxEeKQUp0je9FVfg" text="A_redefinedProperty_property">
+      <visualProperties xmi:id="_RLs7EAfxEeKQUp0je9FVfg" position="-175.5,-64.25"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Q_YWUAfxEeKQUp0je9FVfg" comments="_Q_XvQAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_XvQQfxEeKQUp0je9FVfg" aggregationKind="NONE" name="redefinedProperty" navigable="true">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-redefinedProperty"/>
+      <visualProperties xmi:id="_RLrs8AfxEeKQUp0je9FVfg" position="-159.5,26.66666666666663"/>
+      <visibility xmi:id="_Q_gSIAfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_frEgfxEeKQUp0je9FVfg" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Q_YWUQfxEeKQUp0je9FVfg" aggregationKind="NONE" name="property">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#A_redefinedProperty_property-property"/>
+      <visualProperties xmi:id="_RLs7EQfxEeKQUp0je9FVfg" position="-53.75,39.5"/>
+      <visibility xmi:id="_Q_gSIgfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_gSIQfxEeKQUp0je9FVfg" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Q-84gAfxEeKQUp0je9FVfg" sourceAnchor="69.0,0.0" targetAnchor="75.0,38.0" target="_Q_kjkAfxEeKQUp0je9FVfg" source="_Q_kjkAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#A_subsettedProperty_property"/>
+    <visualProperties xmi:id="_Uy7gcAfxEeKQUp0je9FVfg" visible="false"/>
+    <bendpoints xmi:id="_TRgJ8AfxEeKQUp0je9FVfg" sourceY="-77" targetX="-6" targetY="-115"/>
+    <bendpoints xmi:id="_TRgJ8QfxEeKQUp0je9FVfg" sourceX="83" sourceY="-77" targetX="77" targetY="-115"/>
+    <bendpoints xmi:id="_TRgJ8gfxEeKQUp0je9FVfg" sourceX="83" sourceY="38" targetX="77"/>
+    <nameVisual xmi:id="_Q_Y9YAfxEeKQUp0je9FVfg" text="A_subsettedProperty_property">
+      <visualProperties xmi:id="_RLvXUAfxEeKQUp0je9FVfg" position="2.0,50.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Q_Y9YQfxEeKQUp0je9FVfg" comments="_Q_YWUgfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_YWUwfxEeKQUp0je9FVfg" aggregationKind="NONE" name="subsettedProperty" navigable="true">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-subsettedProperty"/>
+      <visualProperties xmi:id="_RLuJMAfxEeKQUp0je9FVfg" position="-16.0,79.0"/>
+      <visibility xmi:id="_Q_g5MAfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_gSIwfxEeKQUp0je9FVfg" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Q_Y9YgfxEeKQUp0je9FVfg" aggregationKind="NONE" name="property">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#A_subsettedProperty_property-property"/>
+      <visualProperties xmi:id="_RLvXUQfxEeKQUp0je9FVfg" position="35.5,-109.0"/>
+      <visibility xmi:id="_Q_g5MgfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_g5MQfxEeKQUp0je9FVfg" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q-84ggfxEeKQUp0je9FVfg" targetItem="_Q_kjkAfxEeKQUp0je9FVfg" sourceItem="_Q-84gQfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q-9fkQfxEeKQUp0je9FVfg" targetItem="_Q_kjkAfxEeKQUp0je9FVfg" sourceItem="_Q-9fkAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q--GoAfxEeKQUp0je9FVfg" targetItem="_Q_kjkAfxEeKQUp0je9FVfg" sourceItem="_Q-9fkgfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q--GogfxEeKQUp0je9FVfg" targetItem="_Q_kjkAfxEeKQUp0je9FVfg" sourceItem="_Q--GoQfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q--tsAfxEeKQUp0je9FVfg" targetItem="_Q_kjkAfxEeKQUp0je9FVfg" sourceItem="_Q--GowfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q-_70QfxEeKQUp0je9FVfg" targetItem="_Q_kj3AfxEeKQUp0je9FVfg" sourceItem="_Q-_70AfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_BJ8QfxEeKQUp0je9FVfg" targetItem="_Q_kj5QfxEeKQUp0je9FVfg" sourceItem="_Q_BJ8AfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_CYEAfxEeKQUp0je9FVfg" targetItem="_Q_kj7gfxEeKQUp0je9FVfg" sourceItem="_Q_BxAAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_C_IQfxEeKQUp0je9FVfg" targetItem="_Q_kj9wfxEeKQUp0je9FVfg" sourceItem="_Q_C_IAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_DmMQfxEeKQUp0je9FVfg" targetItem="_Q_kj-wfxEeKQUp0je9FVfg" sourceItem="_Q_DmMAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_ENQQfxEeKQUp0je9FVfg" targetItem="_Q_kkAgfxEeKQUp0je9FVfg" sourceItem="_Q_ENQAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_E0UQfxEeKQUp0je9FVfg" targetItem="_Q_kkBgfxEeKQUp0je9FVfg" sourceItem="_Q_E0UAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_FbYQfxEeKQUp0je9FVfg" targetItem="_Q_kkCgfxEeKQUp0je9FVfg" sourceItem="_Q_FbYAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_GCcQfxEeKQUp0je9FVfg" targetItem="_Q_lKogfxEeKQUp0je9FVfg" sourceItem="_Q_GCcAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_HQkQfxEeKQUp0je9FVfg" targetItem="_Q_lKpwfxEeKQUp0je9FVfg" sourceItem="_Q_HQkAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_H3oQfxEeKQUp0je9FVfg" targetItem="_Q_lKrQfxEeKQUp0je9FVfg" sourceItem="_Q_H3oAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_IesQfxEeKQUp0je9FVfg" targetItem="_Q_lKswfxEeKQUp0je9FVfg" sourceItem="_Q_IesAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_JFwQfxEeKQUp0je9FVfg" targetItem="_Q_lKtwfxEeKQUp0je9FVfg" sourceItem="_Q_JFwAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_Js0QfxEeKQUp0je9FVfg" targetItem="_Q_lKtwfxEeKQUp0je9FVfg" sourceItem="_Q_Js0AfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_KT4QfxEeKQUp0je9FVfg" targetItem="_Q_lKvQfxEeKQUp0je9FVfg" sourceItem="_Q_KT4AfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_K68QfxEeKQUp0je9FVfg" targetItem="_Q_lKwQfxEeKQUp0je9FVfg" sourceItem="_Q_K68AfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_LiAQfxEeKQUp0je9FVfg" targetItem="_Q_lKxgfxEeKQUp0je9FVfg" sourceItem="_Q_LiAAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_MJEQfxEeKQUp0je9FVfg" targetItem="_Q_kjkwfxEeKQUp0je9FVfg" sourceItem="_Q_MJEAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_MwIQfxEeKQUp0je9FVfg" targetItem="_Q_kjlwfxEeKQUp0je9FVfg" sourceItem="_Q_MwIAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_NXMAfxEeKQUp0je9FVfg" targetItem="_Q-8RcAfxEeKQUp0je9FVfg" sourceItem="_Q_MwIgfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_N-QAfxEeKQUp0je9FVfg" targetItem="_Q_kjnwfxEeKQUp0je9FVfg" sourceItem="_Q_NXMQfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_N-QgfxEeKQUp0je9FVfg" targetItem="_Q_kjnwfxEeKQUp0je9FVfg" sourceItem="_Q_N-QQfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_OlUQfxEeKQUp0je9FVfg" targetItem="_Q_kjowfxEeKQUp0je9FVfg" sourceItem="_Q_OlUAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_PMYQfxEeKQUp0je9FVfg" targetItem="_Q_kjpwfxEeKQUp0je9FVfg" sourceItem="_Q_PMYAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_PzcAfxEeKQUp0je9FVfg" targetItem="_Q_kjpwfxEeKQUp0je9FVfg" sourceItem="_Q_PMYgfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_QagQfxEeKQUp0je9FVfg" targetItem="_Q_kjrAfxEeKQUp0je9FVfg" sourceItem="_Q_QagAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_RBkAfxEeKQUp0je9FVfg" targetItem="_Q_kjsAfxEeKQUp0je9FVfg" sourceItem="_Q_QaggfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_RooAfxEeKQUp0je9FVfg" targetItem="_Q_kjtAfxEeKQUp0je9FVfg" sourceItem="_Q_RBkQfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_RoogfxEeKQUp0je9FVfg" targetItem="_Q_kjtAfxEeKQUp0je9FVfg" sourceItem="_Q_RooQfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_SPsQfxEeKQUp0je9FVfg" targetItem="_Q_kjuAfxEeKQUp0je9FVfg" sourceItem="_Q_SPsAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_S2wAfxEeKQUp0je9FVfg" targetItem="_Q_kjuAfxEeKQUp0je9FVfg" sourceItem="_Q_SPsgfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_Td0AfxEeKQUp0je9FVfg" targetItem="_Q_kjvAfxEeKQUp0je9FVfg" sourceItem="_Q_S2wQfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_UE4AfxEeKQUp0je9FVfg" targetItem="_Q_kjwAfxEeKQUp0je9FVfg" sourceItem="_Q_Td0QfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_UE4gfxEeKQUp0je9FVfg" targetItem="_Q_kjxAfxEeKQUp0je9FVfg" sourceItem="_Q_UE4QfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_Ur8QfxEeKQUp0je9FVfg" targetItem="_Q_kjxAfxEeKQUp0je9FVfg" sourceItem="_Q_Ur8AfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_VTAQfxEeKQUp0je9FVfg" targetItem="_Q_VTAwfxEeKQUp0je9FVfg" sourceItem="_Q_VTAAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_V6EgfxEeKQUp0je9FVfg" targetItem="_Q_kjzAfxEeKQUp0je9FVfg" sourceItem="_Q_V6EQfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_WhIQfxEeKQUp0je9FVfg" targetItem="_Q-7qYgfxEeKQUp0je9FVfg" sourceItem="_Q_WhIAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_XvQQfxEeKQUp0je9FVfg" targetItem="_Q_YWUAfxEeKQUp0je9FVfg" sourceItem="_Q_XvQAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_YWUwfxEeKQUp0je9FVfg" targetItem="_Q_Y9YQfxEeKQUp0je9FVfg" sourceItem="_Q_YWUgfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_ZkcQfxEeKQUp0je9FVfg" targetItem="_Q_kj5wfxEeKQUp0je9FVfg" sourceItem="_Q_ZkcAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_aLgQfxEeKQUp0je9FVfg" targetItem="_Q_kj8AfxEeKQUp0je9FVfg" sourceItem="_Q_aLgAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_aykQfxEeKQUp0je9FVfg" targetItem="_Q_kj-QfxEeKQUp0je9FVfg" sourceItem="_Q_aykAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_bZoQfxEeKQUp0je9FVfg" targetItem="_Q_kkBAfxEeKQUp0je9FVfg" sourceItem="_Q_bZoAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_cAsQfxEeKQUp0je9FVfg" targetItem="_Q_kkCAfxEeKQUp0je9FVfg" sourceItem="_Q_cAsAfxEeKQUp0je9FVfg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Q_cnwQfxEeKQUp0je9FVfg" targetItem="_Q_kkDAfxEeKQUp0je9FVfg" sourceItem="_Q_cnwAfxEeKQUp0je9FVfg"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q-84gQfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q-84ggfxEeKQUp0je9FVfg" text="Property represents a declared state of one or more instances in terms of a named relationship to a value or values. When a property is an attribute of a classifier, the value or values are related to the instance of the classifier by being held in slots of the instance. When a property is an association end, the value or values are related to the instance or instances at the other end(s) of the association. The range of valid values represented by the property can be controlled by setting the property's type." item="_Q_kjkAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q-9fkAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q-9fkQfxEeKQUp0je9FVfg" text="A property is a structural feature of a classifier that characterizes instances of the classifier. A property related by ownedAttribute to a classifier (other than an association) represents an attribute and might also represent an association end. It relates an instance of the class to a value or set of values of the type of the attribute. A property related by memberEnd or its specializations to an association represents an end of the association. The type of the property is the type of the end of the association." item="_Q_kjkAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-_ownedComment.1"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q-9fkgfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q--GoAfxEeKQUp0je9FVfg" text="A property has the capability of being a deployment target in a deployment relationship. This enables modeling the deployment to hierarchical nodes that have properties functioning as internal parts." item="_Q_kjkAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-_ownedComment.2"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q--GoQfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q--GogfxEeKQUp0je9FVfg" text="Property specializes ParameterableElement to specify that a property can be exposed as a formal template parameter, and provided as an actual parameter in a binding of a template." item="_Q_kjkAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-_ownedComment.3"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q--GowfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q--tsAfxEeKQUp0je9FVfg" text="A property represents a set of instances that are owned by a containing classifier instance." item="_Q_kjkAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-_ownedComment.4"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q-_70AfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q-_70QfxEeKQUp0je9FVfg" text="Retrieves the other end of the (binary) association in which this property is a member end." item="_Q_kj3AfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-getOtherEnd-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_BJ8AfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_BJ8QfxEeKQUp0je9FVfg" text="Sets the default value for this property to the specified Boolean value." item="_Q_kj5QfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setBooleanDefaultValue-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_BxAAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_CYEAfxEeKQUp0je9FVfg" text="Sets the default value for this property to the specified integer value." item="_Q_kj7gfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setIntegerDefaultValue-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_C_IAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_C_IQfxEeKQUp0je9FVfg" text="Sets the navigability of this property as indicated." item="_Q_kj9wfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setIsNavigable-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_DmMAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_DmMQfxEeKQUp0je9FVfg" text="Sets the default value for this property to the null value." item="_Q_kj-wfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setNullDefaultValue-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_ENQAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_ENQQfxEeKQUp0je9FVfg" text="Sets the default value for this property to the specified real value." item="_Q_kkAgfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setRealDefaultValue-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_E0UAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_E0UQfxEeKQUp0je9FVfg" text="Sets the default value for this property to the specified string value." item="_Q_kkBgfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setStringDefaultValue-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_FbYAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_FbYQfxEeKQUp0je9FVfg" text="Sets the default value for this property to the specified unlimited natural value." item="_Q_kkCgfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setUnlimitedNaturalDefaultValue-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_GCcAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_GCcQfxEeKQUp0je9FVfg" text="Missing derivation for Property::/default : String" item="_Q_lKogfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-default.1-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_HQkAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_HQkQfxEeKQUp0je9FVfg" text="The query isAttribute() is true if the Property is defined as an attribute of some classifier." item="_Q_lKpwfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isAttribute-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_H3oAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_H3oQfxEeKQUp0je9FVfg" text="The query isCompatibleWith() determines if this parameterable element is compatible with the specified parameterable element. By default parameterable element P is compatible with parameterable element Q if the kind of P is the same or a subtype as the kind of Q. In addition, for properties, the type must be conformant with the type of the specified parameterable element." item="_Q_lKrQfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isCompatibleWith-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_IesAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_IesQfxEeKQUp0je9FVfg" text="The value of isComposite is true only if aggregation is composite." item="_Q_lKswfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isComposite.1-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_JFwAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_JFwQfxEeKQUp0je9FVfg" text="The query isConsistentWith() specifies, for any two Properties in a context in which redefinition is possible, whether redefinition would be logically consistent. A redefining property is consistent with a redefined property if the type of the redefining property conforms to the type of the redefined property, the multiplicity of the redefining property (if specified) is contained in the multiplicity of the redefined property." item="_Q_lKtwfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isConsistentWith-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_Js0AfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_Js0QfxEeKQUp0je9FVfg" text="The query isConsistentWith() specifies, for any two Properties in a context in which redefinition is possible, whether redefinition would be logically consistent. A redefining property is consistent with a redefined property if the type of the redefining property conforms to the type of the redefined property, and the multiplicity of the redefining property (if specified) is contained in the multiplicity of the redefined property." item="_Q_lKtwfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isConsistentWith-_ownedComment.1"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_KT4AfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_KT4QfxEeKQUp0je9FVfg" text="The query isNavigable() indicates whether it is possible to navigate across the property." item="_Q_lKvQfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isNavigable-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_K68AfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_K68QfxEeKQUp0je9FVfg" text="If this property is owned by a class, associated with a binary association, and the other end of the association is also owned by a class, then opposite gives the other end." item="_Q_lKwQfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-opposite.1-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_LiAAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_LiAQfxEeKQUp0je9FVfg" text="The query subsettingContext() gives the context for subsetting a property. It consists, in the case of an attribute, of the corresponding classifier, and in the case of an association end, all of the classifiers at the other ends." item="_Q_lKxgfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-subsettingContext-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_MJEAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_MJEQfxEeKQUp0je9FVfg" text="Specifies the kind of aggregation that applies to the Property." item="_Q_kjkwfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-aggregation-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_MwIAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_MwIQfxEeKQUp0je9FVfg" text="References the association of which this property is a member, if any." item="_Q_kjlwfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-association-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_MwIgfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_NXMAfxEeKQUp0je9FVfg" text="Designates the optional association end that owns a qualifier attribute." item="_Q-8RcAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-associationEnd-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_NXMQfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_N-QAfxEeKQUp0je9FVfg" text="References the Class that owns the Property." item="_Q_kjnwfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-class-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_N-QQfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_N-QgfxEeKQUp0je9FVfg" text="References the Class that owns the Property." item="_Q_kjnwfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-class-_ownedComment.1"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_OlUAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_OlUQfxEeKQUp0je9FVfg" text="The DataType that owns this Property." item="_Q_kjowfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-datatype-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_PMYAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_PMYQfxEeKQUp0je9FVfg" text="Specifies a String that represents a value to be used when no argument is supplied for the Property." item="_Q_kjpwfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-default-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_PMYgfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_PzcAfxEeKQUp0je9FVfg" text="A String that is evaluated to give a default value for the Property when an object of the owning Classifier is instantiated." item="_Q_kjpwfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-default-_ownedComment.1"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_QagAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_QagQfxEeKQUp0je9FVfg" text="A ValueSpecification that is evaluated to give a default value for the Property when an object of the owning Classifier is instantiated." item="_Q_kjrAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-defaultValue-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_QaggfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_RBkAfxEeKQUp0je9FVfg" text="References the Interface that owns the Property" item="_Q_kjsAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-interface-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_RBkQfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_RooAfxEeKQUp0je9FVfg" text="If isComposite is true, the object containing the attribute is a container for the object or value contained in the attribute." item="_Q_kjtAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isComposite-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_RooQfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_RoogfxEeKQUp0je9FVfg" text="This is a derived value, indicating whether the aggregation of the Property is composite or not." item="_Q_kjtAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isComposite-_ownedComment.1"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_SPsAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_SPsQfxEeKQUp0je9FVfg" text="If isDerived is true, the value of the attribute is derived from information elsewhere." item="_Q_kjuAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isDerived-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_SPsgfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_S2wAfxEeKQUp0je9FVfg" text="Specifies whether the Property is derived, i.e., whether its value or values can be computed from other information." item="_Q_kjuAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isDerived-_ownedComment.1"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_S2wQfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_Td0AfxEeKQUp0je9FVfg" text="Specifies whether the property is derived as the union of all of the properties that are constrained to subset it." item="_Q_kjvAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isDerivedUnion-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_Td0QfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_UE4AfxEeKQUp0je9FVfg" text="True indicates this property can be used to uniquely identify an instance of the containing Class." item="_Q_kjwAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isID-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_UE4QfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_UE4gfxEeKQUp0je9FVfg" text="If true, the attribute may only be read, and not written." item="_Q_kjxAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isReadOnly-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_Ur8AfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_Ur8QfxEeKQUp0je9FVfg" text="If isReadOnly is true, the attribute may not be written to after initialization." item="_Q_kjxAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isReadOnly-_ownedComment.1"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_VTAAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_VTAQfxEeKQUp0je9FVfg" text="In the case where the property is one navigable end of a binary association with both ends navigable, this gives the other end." item="_Q_VTAwfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-opposite-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_V6EQfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_V6EgfxEeKQUp0je9FVfg" text="References the owning association of this property, if any." item="_Q_kjzAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-owningAssociation-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_WhIAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_WhIQfxEeKQUp0je9FVfg" text="An optional list of ordered qualifier attributes for the end. If the list is empty, then the Association is not qualified." item="_Q-7qYgfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-qualifier-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_XvQAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_XvQQfxEeKQUp0je9FVfg" text="References the properties that are redefined by this property." item="_Q_YWUAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-redefinedProperty-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_YWUgfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_YWUwfxEeKQUp0je9FVfg" text="References the properties of which this property is constrained to be a subset." item="_Q_Y9YQfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-subsettedProperty-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_ZkcAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_ZkcQfxEeKQUp0je9FVfg" text="The new default value." item="_Q_kj5wfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setBooleanDefaultValue-value-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_aLgAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_aLgQfxEeKQUp0je9FVfg" text="The new default value." item="_Q_kj8AfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setIntegerDefaultValue-value-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_aykAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_aykQfxEeKQUp0je9FVfg" text="The new navigability." item="_Q_kj-QfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setIsNavigable-isNavigable-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_bZoAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_bZoQfxEeKQUp0je9FVfg" text="The new default value." item="_Q_kkBAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setRealDefaultValue-value-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_cAsAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_cAsQfxEeKQUp0je9FVfg" text="The new default value." item="_Q_kkCAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setStringDefaultValue-value-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Q_cnwAfxEeKQUp0je9FVfg" sourceConnectionVisual="_Q_cnwQfxEeKQUp0je9FVfg" text="The new default value." item="_Q_kkDAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setUnlimitedNaturalDefaultValue-value-_ownedComment.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:StereotypeVisual" xmi:id="_QRbrMAfxEeKQUp0je9FVfg" name="LoggerStyledElement">
+    <modelElement href="Logger.profile.uml#LOGGERStyle-LoggerStyledElement"/>
+    <visualProperties xmi:id="_QRbrMQfxEeKQUp0je9FVfg" position="257.0,101.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_QRbrMgfxEeKQUp0je9FVfg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Q_kjkAfxEeKQUp0je9FVfg" comments="_Q-84gQfxEeKQUp0je9FVfg _Q-9fkAfxEeKQUp0je9FVfg _Q-9fkgfxEeKQUp0je9FVfg _Q--GoQfxEeKQUp0je9FVfg _Q--GowfxEeKQUp0je9FVfg" targetConnectionVisual="_Q-84ggfxEeKQUp0je9FVfg _Q-9fkQfxEeKQUp0je9FVfg _Q--GoAfxEeKQUp0je9FVfg _Q--GogfxEeKQUp0je9FVfg _Q--tsAfxEeKQUp0je9FVfg" name="Property" associationsIn="_Q-51MAfxEeKQUp0je9FVfg _Q-7qYAfxEeKQUp0je9FVfg _Q-8RcQfxEeKQUp0je9FVfg _Q-84gAfxEeKQUp0je9FVfg" associationsOut="_Q-51MAfxEeKQUp0je9FVfg _Q-7qYAfxEeKQUp0je9FVfg _Q-8RcQfxEeKQUp0je9FVfg _Q-84gAfxEeKQUp0je9FVfg" extendedBy="_QRjnAAfxEeKQUp0je9FVfg">
+    <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+    <visualProperties xmi:id="_Q_kjkQfxEeKQUp0je9FVfg" position="103.0,98.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Q_kjkgfxEeKQUp0je9FVfg" label="+"/>
+    <attributes xmi:id="_Q_kjkwfxEeKQUp0je9FVfg" comments="_Q_MJEAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_MJEQfxEeKQUp0je9FVfg" defaultValue="none" name="aggregation">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-aggregation"/>
+      <visualProperties xmi:id="_RgthwAfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kjlAfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_kjlQfxEeKQUp0je9FVfg" label="1" max="1" min="1"/>
+      <type xmi:id="_Q_kjlgfxEeKQUp0je9FVfg" name="AggregationKind">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#AggregationKind"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Q_kjlwfxEeKQUp0je9FVfg" comments="_Q_MwIAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_MwIQfxEeKQUp0je9FVfg" name="association">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-association"/>
+      <visualProperties xmi:id="_RgthwQfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kjmAfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_kjmQfxEeKQUp0je9FVfg" label="0..1" max="1"/>
+      <type xmi:id="_Q_kjmgfxEeKQUp0je9FVfg" name="Association">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Association"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Q_kjmwfxEeKQUp0je9FVfg" name="associationEnd">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-associationEnd"/>
+      <visualProperties xmi:id="_VNPd4AfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kjnAfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_kjnQfxEeKQUp0je9FVfg" label="0..1" max="1"/>
+      <type xmi:id="_Q_kjngfxEeKQUp0je9FVfg" name="Property">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Q_kjnwfxEeKQUp0je9FVfg" comments="_Q_NXMQfxEeKQUp0je9FVfg _Q_N-QQfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_N-QAfxEeKQUp0je9FVfg _Q_N-QgfxEeKQUp0je9FVfg" name="class">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-class"/>
+      <visualProperties xmi:id="_RguI0AfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kjoAfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_kjoQfxEeKQUp0je9FVfg" label="0..1" max="1"/>
+      <type xmi:id="_Q_kjogfxEeKQUp0je9FVfg" name="Class">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Q_kjowfxEeKQUp0je9FVfg" comments="_Q_OlUAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_OlUQfxEeKQUp0je9FVfg" name="datatype">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-datatype"/>
+      <visualProperties xmi:id="_Rguv4AfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kjpAfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_kjpQfxEeKQUp0je9FVfg" label="0..1" max="1"/>
+      <type xmi:id="_Q_kjpgfxEeKQUp0je9FVfg" name="DataType">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#DataType"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Q_kjpwfxEeKQUp0je9FVfg" comments="_Q_PMYAfxEeKQUp0je9FVfg _Q_PMYgfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_PMYQfxEeKQUp0je9FVfg _Q_PzcAfxEeKQUp0je9FVfg" derived="true" name="default">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-default"/>
+      <visualProperties xmi:id="_Rguv4QfxEeKQUp0je9FVfg" visible="false"/>
+      <stereotypes xmi:id="_Q_kjqAfxEeKQUp0je9FVfg" name="EAttribute">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#_Nqs48LG2EeCDe8CO90iVKQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Q_kjqQfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_kjqgfxEeKQUp0je9FVfg" label="0..1" max="1"/>
+      <type xmi:id="_Q_kjqwfxEeKQUp0je9FVfg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Q_kjrAfxEeKQUp0je9FVfg" comments="_Q_QagAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_QagQfxEeKQUp0je9FVfg" name="defaultValue">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-defaultValue"/>
+      <visualProperties xmi:id="_RgxMIAfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kjrQfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_kjrgfxEeKQUp0je9FVfg" label="0..1" max="1"/>
+      <type xmi:id="_Q_kjrwfxEeKQUp0je9FVfg" name="ValueSpecification">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#ValueSpecification"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Q_kjsAfxEeKQUp0je9FVfg" comments="_Q_QaggfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_RBkAfxEeKQUp0je9FVfg" name="interface">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-interface"/>
+      <visualProperties xmi:id="_RgxMIQfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kjsQfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_kjsgfxEeKQUp0je9FVfg" label="0..1" max="1"/>
+      <type xmi:id="_Q_kjswfxEeKQUp0je9FVfg" name="Interface">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Interface"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Q_kjtAfxEeKQUp0je9FVfg" comments="_Q_RBkQfxEeKQUp0je9FVfg _Q_RooQfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_RooAfxEeKQUp0je9FVfg _Q_RoogfxEeKQUp0je9FVfg" defaultValue="false" derived="true" name="isComposite">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isComposite"/>
+      <visualProperties xmi:id="_RgxzMAfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kjtQfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_kjtgfxEeKQUp0je9FVfg" label="1" max="1" min="1"/>
+      <type xmi:id="_Q_kjtwfxEeKQUp0je9FVfg" name="Boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Q_kjuAfxEeKQUp0je9FVfg" comments="_Q_SPsAfxEeKQUp0je9FVfg _Q_SPsgfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_SPsQfxEeKQUp0je9FVfg _Q_S2wAfxEeKQUp0je9FVfg" defaultValue="false" name="isDerived">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isDerived"/>
+      <visualProperties xmi:id="_RgyaQAfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kjuQfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_kjugfxEeKQUp0je9FVfg" label="1" max="1" min="1"/>
+      <type xmi:id="_Q_kjuwfxEeKQUp0je9FVfg" name="Boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Q_kjvAfxEeKQUp0je9FVfg" comments="_Q_S2wQfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_Td0AfxEeKQUp0je9FVfg" defaultValue="false" name="isDerivedUnion">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isDerivedUnion"/>
+      <visualProperties xmi:id="_RgyaQQfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kjvQfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_kjvgfxEeKQUp0je9FVfg" label="1" max="1" min="1"/>
+      <type xmi:id="_Q_kjvwfxEeKQUp0je9FVfg" name="Boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Q_kjwAfxEeKQUp0je9FVfg" comments="_Q_Td0QfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_UE4AfxEeKQUp0je9FVfg" defaultValue="false" name="isID">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isID"/>
+      <visualProperties xmi:id="_RgzBUAfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kjwQfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_kjwgfxEeKQUp0je9FVfg" label="1" max="1" min="1"/>
+      <type xmi:id="_Q_kjwwfxEeKQUp0je9FVfg" name="Boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Q_kjxAfxEeKQUp0je9FVfg" comments="_Q_UE4QfxEeKQUp0je9FVfg _Q_Ur8AfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_UE4gfxEeKQUp0je9FVfg _Q_Ur8QfxEeKQUp0je9FVfg" defaultValue="false" name="isReadOnly">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isReadOnly"/>
+      <visualProperties xmi:id="_RgzBUQfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kjxQfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_kjxgfxEeKQUp0je9FVfg" label="1" max="1" min="1"/>
+      <type xmi:id="_Q_kjxwfxEeKQUp0je9FVfg" name="Boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Q_kjyAfxEeKQUp0je9FVfg" derived="true" name="opposite">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-opposite"/>
+      <visualProperties xmi:id="_VNQE8AfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kjyQfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_kjygfxEeKQUp0je9FVfg" label="0..1" max="1"/>
+      <type xmi:id="_Q_kjywfxEeKQUp0je9FVfg" name="Property">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Q_kjzAfxEeKQUp0je9FVfg" comments="_Q_V6EQfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_V6EgfxEeKQUp0je9FVfg" name="owningAssociation">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-owningAssociation"/>
+      <visualProperties xmi:id="_RgzoYAfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kjzQfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_kjzgfxEeKQUp0je9FVfg" label="0..1" max="1"/>
+      <type xmi:id="_Q_kjzwfxEeKQUp0je9FVfg" name="Association">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Association"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Q_kj0AfxEeKQUp0je9FVfg" name="qualifier">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-qualifier"/>
+      <visualProperties xmi:id="_VNQE8QfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kj0QfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_kj0gfxEeKQUp0je9FVfg" label="*" max="-1"/>
+      <type xmi:id="_Q_kj0wfxEeKQUp0je9FVfg" name="Property">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Q_kj1AfxEeKQUp0je9FVfg" name="redefinedProperty">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-redefinedProperty"/>
+      <visualProperties xmi:id="_VNQsAAfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kj1QfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_kj1gfxEeKQUp0je9FVfg" label="*" max="-1"/>
+      <type xmi:id="_Q_kj1wfxEeKQUp0je9FVfg" name="Property">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Q_kj2AfxEeKQUp0je9FVfg" name="subsettedProperty">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-subsettedProperty"/>
+      <visualProperties xmi:id="_VNQsAQfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kj2QfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_Q_kj2gfxEeKQUp0je9FVfg" label="*" max="-1"/>
+      <type xmi:id="_Q_kj2wfxEeKQUp0je9FVfg" name="Property">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Q_kj3AfxEeKQUp0je9FVfg" comments="_Q-_70AfxEeKQUp0je9FVfg" targetConnectionVisual="_Q-_70QfxEeKQUp0je9FVfg" name="getOtherEnd">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-getOtherEnd"/>
+      <visualProperties xmi:id="_RvmSUAfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kj3QfxEeKQUp0je9FVfg" label="+"/>
+      <outParameters xmi:id="_Q_kj3gfxEeKQUp0je9FVfg">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-getOtherEnd-_ownedParameter.0"/>
+        <type xmi:id="_Q_kj3wfxEeKQUp0je9FVfg" name="Property">
+          <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Q_kj4AfxEeKQUp0je9FVfg" name="isSetDefault">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isSetDefault"/>
+      <visualProperties xmi:id="_Rvm5YAfxEeKQUp0je9FVfg" visible="false"/>
+      <stereotypes xmi:id="_Q_kj4QfxEeKQUp0je9FVfg" name="EOperation">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#_uRhxMMb7EdyrC427ygySag"/>
+      </stereotypes>
+      <visibility xmi:id="_Q_kj4gfxEeKQUp0je9FVfg" label="#"/>
+      <outParameters xmi:id="_Q_kj4wfxEeKQUp0je9FVfg">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isSetDefault-_ownedParameter.0"/>
+        <type xmi:id="_Q_kj5AfxEeKQUp0je9FVfg" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Q_kj5QfxEeKQUp0je9FVfg" comments="_Q_BJ8AfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_BJ8QfxEeKQUp0je9FVfg" name="setBooleanDefaultValue">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setBooleanDefaultValue"/>
+      <visualProperties xmi:id="_Rvm5YQfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kj5gfxEeKQUp0je9FVfg" label="+"/>
+      <parameters xmi:id="_Q_kj5wfxEeKQUp0je9FVfg" comments="_Q_ZkcAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_ZkcQfxEeKQUp0je9FVfg" name="value">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setBooleanDefaultValue-value"/>
+        <type xmi:id="_Q_kj6AfxEeKQUp0je9FVfg" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Q_kj6QfxEeKQUp0je9FVfg" name="setDefault">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setDefault"/>
+      <visualProperties xmi:id="_RvngcAfxEeKQUp0je9FVfg" visible="false"/>
+      <stereotypes xmi:id="_Q_kj6gfxEeKQUp0je9FVfg" name="EOperation">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#_vxMNIMb7EdyrC427ygySag"/>
+      </stereotypes>
+      <visibility xmi:id="_Q_kj6wfxEeKQUp0je9FVfg" label="#"/>
+      <parameters xmi:id="_Q_kj7AfxEeKQUp0je9FVfg" name="newDefault">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setDefault-newDefault"/>
+        <type xmi:id="_Q_kj7QfxEeKQUp0je9FVfg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Q_kj7gfxEeKQUp0je9FVfg" comments="_Q_BxAAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_CYEAfxEeKQUp0je9FVfg" name="setIntegerDefaultValue">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setIntegerDefaultValue"/>
+      <visualProperties xmi:id="_RvoHgAfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kj7wfxEeKQUp0je9FVfg" label="+"/>
+      <parameters xmi:id="_Q_kj8AfxEeKQUp0je9FVfg" comments="_Q_aLgAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_aLgQfxEeKQUp0je9FVfg" name="value">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setIntegerDefaultValue-value"/>
+        <type xmi:id="_Q_kj8QfxEeKQUp0je9FVfg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Q_kj8gfxEeKQUp0je9FVfg" name="setIsComposite">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setIsComposite"/>
+      <visualProperties xmi:id="_RvoHgQfxEeKQUp0je9FVfg" visible="false"/>
+      <stereotypes xmi:id="_Q_kj8wfxEeKQUp0je9FVfg" name="EOperation">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#_wtF0sMb7EdyrC427ygySag"/>
+      </stereotypes>
+      <visibility xmi:id="_Q_kj9AfxEeKQUp0je9FVfg" label="#"/>
+      <parameters xmi:id="_Q_kj9QfxEeKQUp0je9FVfg" name="newIsComposite">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setIsComposite-newIsComposite"/>
+        <type xmi:id="_Q_kj9gfxEeKQUp0je9FVfg" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Q_kj9wfxEeKQUp0je9FVfg" comments="_Q_C_IAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_C_IQfxEeKQUp0je9FVfg" name="setIsNavigable">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setIsNavigable"/>
+      <visualProperties xmi:id="_RvoukAfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kj-AfxEeKQUp0je9FVfg" label="+"/>
+      <parameters xmi:id="_Q_kj-QfxEeKQUp0je9FVfg" comments="_Q_aykAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_aykQfxEeKQUp0je9FVfg" name="isNavigable">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setIsNavigable-isNavigable"/>
+        <type xmi:id="_Q_kj-gfxEeKQUp0je9FVfg" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Q_kj-wfxEeKQUp0je9FVfg" comments="_Q_DmMAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_DmMQfxEeKQUp0je9FVfg" name="setNullDefaultValue">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setNullDefaultValue"/>
+      <visualProperties xmi:id="_RvoukQfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kj_AfxEeKQUp0je9FVfg" label="+"/>
+    </operations>
+    <operations xmi:id="_Q_kj_QfxEeKQUp0je9FVfg" name="setOpposite">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setOpposite"/>
+      <visualProperties xmi:id="_RvpVoAfxEeKQUp0je9FVfg" visible="false"/>
+      <stereotypes xmi:id="_Q_kj_gfxEeKQUp0je9FVfg" name="EOperation">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#_xr-e0Mb7EdyrC427ygySag"/>
+      </stereotypes>
+      <visibility xmi:id="_Q_kj_wfxEeKQUp0je9FVfg" label="#"/>
+      <parameters xmi:id="_Q_kkAAfxEeKQUp0je9FVfg" name="newOpposite">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setOpposite-newOpposite"/>
+        <type xmi:id="_Q_kkAQfxEeKQUp0je9FVfg" name="Property">
+          <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Q_kkAgfxEeKQUp0je9FVfg" comments="_Q_ENQAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_ENQQfxEeKQUp0je9FVfg" name="setRealDefaultValue">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setRealDefaultValue"/>
+      <visualProperties xmi:id="_RvpVoQfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kkAwfxEeKQUp0je9FVfg" label="+"/>
+      <parameters xmi:id="_Q_kkBAfxEeKQUp0je9FVfg" comments="_Q_bZoAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_bZoQfxEeKQUp0je9FVfg" name="value">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setRealDefaultValue-value"/>
+        <type xmi:id="_Q_kkBQfxEeKQUp0je9FVfg" name="Real">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Q_kkBgfxEeKQUp0je9FVfg" comments="_Q_E0UAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_E0UQfxEeKQUp0je9FVfg" name="setStringDefaultValue">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setStringDefaultValue"/>
+      <visualProperties xmi:id="_Rvp8sAfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kkBwfxEeKQUp0je9FVfg" label="+"/>
+      <parameters xmi:id="_Q_kkCAfxEeKQUp0je9FVfg" comments="_Q_cAsAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_cAsQfxEeKQUp0je9FVfg" name="value">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setStringDefaultValue-value"/>
+        <type xmi:id="_Q_kkCQfxEeKQUp0je9FVfg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Q_kkCgfxEeKQUp0je9FVfg" comments="_Q_FbYAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_FbYQfxEeKQUp0je9FVfg" name="setUnlimitedNaturalDefaultValue">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setUnlimitedNaturalDefaultValue"/>
+      <visualProperties xmi:id="_Rvp8sQfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_kkCwfxEeKQUp0je9FVfg" label="+"/>
+      <parameters xmi:id="_Q_kkDAfxEeKQUp0je9FVfg" comments="_Q_cnwAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_cnwQfxEeKQUp0je9FVfg" name="value">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-setUnlimitedNaturalDefaultValue-value"/>
+        <type xmi:id="_Q_kkDQfxEeKQUp0je9FVfg" name="UnlimitedNatural">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Q_kkDgfxEeKQUp0je9FVfg" name="unsetDefault">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-unsetDefault"/>
+      <visualProperties xmi:id="_RvqjwAfxEeKQUp0je9FVfg" visible="false"/>
+      <stereotypes xmi:id="_Q_lKoAfxEeKQUp0je9FVfg" name="EOperation">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#_1ce8AMb7EdyrC427ygySag"/>
+      </stereotypes>
+      <visibility xmi:id="_Q_lKoQfxEeKQUp0je9FVfg" label="#"/>
+    </operations>
+    <operations xmi:id="_Q_lKogfxEeKQUp0je9FVfg" comments="_Q_GCcAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_GCcQfxEeKQUp0je9FVfg" name="default">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-default.1"/>
+      <visualProperties xmi:id="_RvqjwQfxEeKQUp0je9FVfg" visible="false"/>
+      <stereotypes xmi:id="_Q_lKowfxEeKQUp0je9FVfg" name="EOperation">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#_sq2uUMb7EdyrC427ygySag"/>
+      </stereotypes>
+      <visibility xmi:id="_Q_lKpAfxEeKQUp0je9FVfg" label="+"/>
+      <outParameters xmi:id="_Q_lKpQfxEeKQUp0je9FVfg" name="result">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-default.1-result"/>
+        <type xmi:id="_Q_lKpgfxEeKQUp0je9FVfg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Q_lKpwfxEeKQUp0je9FVfg" comments="_Q_HQkAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_HQkQfxEeKQUp0je9FVfg" name="isAttribute">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isAttribute"/>
+      <visualProperties xmi:id="_RvrK0AfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_lKqAfxEeKQUp0je9FVfg" label="+"/>
+      <outParameters xmi:id="_Q_lKqQfxEeKQUp0je9FVfg" name="result">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isAttribute-result"/>
+        <type xmi:id="_Q_lKqgfxEeKQUp0je9FVfg" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Q_lKqwfxEeKQUp0je9FVfg" name="p">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isAttribute-p"/>
+        <type xmi:id="_Q_lKrAfxEeKQUp0je9FVfg" name="Property">
+          <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Q_lKrQfxEeKQUp0je9FVfg" comments="_Q_H3oAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_H3oQfxEeKQUp0je9FVfg" name="isCompatibleWith">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isCompatibleWith"/>
+      <visualProperties xmi:id="_Rvrx4AfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_lKrgfxEeKQUp0je9FVfg" label="+"/>
+      <outParameters xmi:id="_Q_lKrwfxEeKQUp0je9FVfg" name="result">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isCompatibleWith-result"/>
+        <type xmi:id="_Q_lKsAfxEeKQUp0je9FVfg" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Q_lKsQfxEeKQUp0je9FVfg" name="p">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isCompatibleWith-p"/>
+        <type xmi:id="_Q_lKsgfxEeKQUp0je9FVfg" name="ParameterableElement">
+          <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#ParameterableElement"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Q_lKswfxEeKQUp0je9FVfg" comments="_Q_IesAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_IesQfxEeKQUp0je9FVfg" name="isComposite">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isComposite.1"/>
+      <visualProperties xmi:id="_Rvrx4QfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_lKtAfxEeKQUp0je9FVfg" label="+"/>
+      <outParameters xmi:id="_Q_lKtQfxEeKQUp0je9FVfg" name="result">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isComposite.1-result"/>
+        <type xmi:id="_Q_lKtgfxEeKQUp0je9FVfg" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Q_lKtwfxEeKQUp0je9FVfg" comments="_Q_JFwAfxEeKQUp0je9FVfg _Q_Js0AfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_JFwQfxEeKQUp0je9FVfg _Q_Js0QfxEeKQUp0je9FVfg" name="isConsistentWith">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isConsistentWith"/>
+      <visualProperties xmi:id="_Rvrx4gfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_lKuAfxEeKQUp0je9FVfg" label="+"/>
+      <outParameters xmi:id="_Q_lKuQfxEeKQUp0je9FVfg" name="result">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isConsistentWith-result"/>
+        <type xmi:id="_Q_lKugfxEeKQUp0je9FVfg" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Q_lKuwfxEeKQUp0je9FVfg" name="redefinee">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isConsistentWith-redefinee"/>
+        <type xmi:id="_Q_lKvAfxEeKQUp0je9FVfg" name="RedefinableElement">
+          <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#RedefinableElement"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Q_lKvQfxEeKQUp0je9FVfg" comments="_Q_KT4AfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_KT4QfxEeKQUp0je9FVfg" name="isNavigable">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isNavigable"/>
+      <visualProperties xmi:id="_RvsY8AfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_lKvgfxEeKQUp0je9FVfg" label="+"/>
+      <outParameters xmi:id="_Q_lKvwfxEeKQUp0je9FVfg" name="result">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-isNavigable-result"/>
+        <type xmi:id="_Q_lKwAfxEeKQUp0je9FVfg" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Q_lKwQfxEeKQUp0je9FVfg" comments="_Q_K68AfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_K68QfxEeKQUp0je9FVfg" name="opposite">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-opposite.1"/>
+      <visualProperties xmi:id="_RvsY8QfxEeKQUp0je9FVfg" visible="false"/>
+      <stereotypes xmi:id="_Q_lKwgfxEeKQUp0je9FVfg" name="EOperation">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#_zo6GULL6EeCBifIhhuFqZA"/>
+      </stereotypes>
+      <visibility xmi:id="_Q_lKwwfxEeKQUp0je9FVfg" label="+"/>
+      <outParameters xmi:id="_Q_lKxAfxEeKQUp0je9FVfg" name="result">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-opposite.1-result"/>
+        <type xmi:id="_Q_lKxQfxEeKQUp0je9FVfg" name="Property">
+          <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Q_lKxgfxEeKQUp0je9FVfg" comments="_Q_LiAAfxEeKQUp0je9FVfg" targetConnectionVisual="_Q_LiAQfxEeKQUp0je9FVfg" name="subsettingContext">
+      <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-subsettingContext"/>
+      <visualProperties xmi:id="_RvtAAAfxEeKQUp0je9FVfg" visible="false"/>
+      <visibility xmi:id="_Q_lKxwfxEeKQUp0je9FVfg" label="+"/>
+      <outParameters xmi:id="_Q_lKyAfxEeKQUp0je9FVfg" name="result">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property-subsettingContext-result"/>
+        <type xmi:id="_Q_lKyQfxEeKQUp0je9FVfg" name="Type">
+          <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Type"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:StereotypeVisual" xmi:id="_QRf8oAfxEeKQUp0je9FVfg" name="ValueChecked" extensions="_QRjnAAfxEeKQUp0je9FVfg">
+    <modelElement href="Logger.profile.uml#LOGGERStyle-ValueChecked"/>
+    <visualProperties xmi:id="_QRf8oQfxEeKQUp0je9FVfg" position="98.0,265.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_QRf8ogfxEeKQUp0je9FVfg" label="+"/>
+    <attributes xmi:id="_QRf8owfxEeKQUp0je9FVfg" name="min">
+      <modelElement href="Logger.profile.uml#LOGGERStyle-ValueChecked-lower"/>
+      <visibility xmi:id="_QRf8pAfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_QRf8pQfxEeKQUp0je9FVfg" label="1" max="1" min="1"/>
+      <type xmi:id="_QRf8pgfxEeKQUp0je9FVfg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRf8pwfxEeKQUp0je9FVfg" name="max">
+      <modelElement href="Logger.profile.uml#LOGGERStyle-ValueChecked-upper"/>
+      <visibility xmi:id="_QRf8qAfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_QRf8qQfxEeKQUp0je9FVfg" label="1" max="1" min="1"/>
+      <type xmi:id="_QRf8qgfxEeKQUp0je9FVfg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QRf8qwfxEeKQUp0je9FVfg" name="base_Property">
+      <modelElement href="Logger.profile.uml#LOGGERStyle-ValueChecked-base_Property"/>
+      <visibility xmi:id="_QRf8rAfxEeKQUp0je9FVfg" label="+"/>
+      <cardinality xmi:id="_QRf8rQfxEeKQUp0je9FVfg" label="1" max="1" min="1"/>
+      <type xmi:id="_QRf8rgfxEeKQUp0je9FVfg" name="Property">
+        <modelElement href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+      </type>
+    </attributes>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

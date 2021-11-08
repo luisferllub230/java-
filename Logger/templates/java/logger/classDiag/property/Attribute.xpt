@@ -1,0 +1,66 @@
+«IMPORT uml»
+«IMPORT UMLLabProfile»
+«IMPORT LOGGERStyle»
+
+«EXTENSION Utility»
+«EXTENSION java::standard::classDiag::property::AttributeExtensions»
+«EXTENSION java::standard::classDiag::classifier::ClassifierExtensions»
+
+
+«DEFINE attribute (LoggerStyledElement style,Classifier parent,MemberFragmentTuple fragment) FOR Property»
+«IF fragment.partId==0»
+«EXPAND java::standard::classDiag::property::Attribute::attribute_FRG_Declaration(style, parent) FOR this»
+«ELSEIF fragment.partId==1»
+«EXPAND java::standard::classDiag::property::Attribute::attribute_FRG_Setter(style, parent) FOR this»
+«ELSEIF fragment.partId==2»
+«EXPAND java::standard::classDiag::property::Attribute::attribute_FRG_Getter(style, parent) FOR this»
+«ENDIF»
+«ENDDEFINE»
+
+«DEFINE attribute_FRG_Setter (LoggerStyledElement style, Classifier parent)  FOR Property»
+«REM»
+  Don't generate a setter, if 
+   - the field is constant: isStatic && isLeaf && isReadOnly
+   - the field is final:    isLeaf && isReadOnly
+   - the field is readonly: isReadOnly
+   => !isReadOnly
+«ENDREM»
+«IF !isReadOnly»
+«LET getWordAlias("value") AS value»
+«childVisibilityString(parent)» «IF isStatic»static «ENDIF»«IF isLeaf»final «ENDIF»void set«name.methodSuffix()»(«IF getBooleanAlias(false)»final «ENDIF»«EXPAND java::standard::Multiplicity::typedMultiplicityElement FOR this» «value»)«""»
+«IF parent.isInterface()»
+;
+
+«ELSE»
+ {
+«IF ValueChecked.isInstance(this)»
+«LET (ValueChecked)this AS this»
+«IF type.typeString()=="String"»
+if («value» == null)
+{
+  log.log(Level.SEVERE, "null value: «name»");
+}
+«IF min != 0»
+else if («value».length() < «min»)
+{
+  log.log(Level.SEVERE, "value too short: «name»");
+}
+«ENDIF»
+«IF max != 0»
+else if («value».length() > «max»)
+{
+  log.log(Level.SEVERE, "value too long: «name»");
+}
+«ENDIF»
+«ENDIF»
+«ENDLET»
+«ENDIF»
+log.log(Level.FINE, "change «name»");
+«addImport("java.util.logging.Level")»
+   «"   " + thisName(parent)» = «value»;
+}
+
+«ENDIF»
+«ENDLET» 
+«ENDIF»
+«ENDDEFINE»
