@@ -4,19 +4,16 @@ import java.awt.EventQueue;
 import Clases.ConectorDB;
 import javax.swing.JFrame;
 import javax.swing.JTextField;
-import javax.swing.DefaultListModel;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
-import java.util.ArrayList;
 import java.awt.event.ActionEvent;
 import javax.swing.JLabel;
 import javax.swing.JMenuBar;
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
-import javax.swing.JList;
 import javax.swing.JScrollPane;
-import javax.swing.JTextPane;
+import javax.swing.JTable;
 
 public class agenda {
 
@@ -28,7 +25,7 @@ public class agenda {
 	JLabel lbl1;
 	private JTextField textIDmatricula;
 	private JTextField textCarrera;
-	JTextPane textPane;
+	private JTable table;
 
 	/**
 	 * Launch the application.
@@ -58,12 +55,12 @@ public class agenda {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.setBounds(100, 100, 450, 300);
+		frame.setBounds(100, 100, 591, 474);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
 		textNombre = new JTextField();
-		textNombre.setBounds(106, 64, 86, 20);
+		textNombre.setBounds(10, 115, 86, 20);
 		frame.getContentPane().add(textNombre);
 		textNombre.setColumns(10);
 		
@@ -84,11 +81,11 @@ public class agenda {
 		frame.getContentPane().add(btnBuscar);
 		
 		lbl1 = new JLabel("...");
-		lbl1.setBounds(10, 196, 414, 20);
+		lbl1.setBounds(10, 207, 414, 20);
 		frame.getContentPane().add(lbl1);
 		
 		JMenuBar menuBar = new JMenuBar();
-		menuBar.setBounds(0, 0, 434, 22);
+		menuBar.setBounds(0, 0, 575, 22);
 		frame.getContentPane().add(menuBar);
 		
 		JMenu mnNewMenu = new JMenu("opciones ");
@@ -124,14 +121,9 @@ public class agenda {
 		});
 		mnNewMenu.add(mntmBorrar);
 		
-		JMenuItem mntmlist = new JMenuItem("MOSTRAR LISTA");
-		mntmlist.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				textPane.setText(con.mostrarLista());
-				con.desconectar();
-			}
-		});
-		mnNewMenu.add(mntmlist);
+		JMenuItem mntmNewMenuItem = new JMenuItem("actualizar");
+		mnNewMenu.add(mntmNewMenuItem);
+		
 		
 		textIDmatricula = new JTextField();
 		textIDmatricula.setBounds(10, 64, 86, 20);
@@ -143,25 +135,23 @@ public class agenda {
 		frame.getContentPane().add(lblmatricula);
 		
 		JLabel lblnombre = new JLabel("NOMBRE");
-		lblnombre.setBounds(106, 39, 86, 14);
+		lblnombre.setBounds(10, 90, 86, 14);
 		frame.getContentPane().add(lblnombre);
 		
 		textCarrera = new JTextField();
-		textCarrera.setBounds(202, 64, 86, 20);
+		textCarrera.setBounds(10, 170, 86, 20);
 		frame.getContentPane().add(textCarrera);
 		textCarrera.setColumns(10);
 		
 		JLabel lblCarrera = new JLabel("CARRERA");
-		lblCarrera.setBounds(202, 39, 86, 14);
+		lblCarrera.setBounds(10, 145, 86, 14);
 		frame.getContentPane().add(lblCarrera);
 		
+		//tabla
 		JScrollPane scrollPane = new JScrollPane();
-		scrollPane.setBounds(20, 95, 393, 75);
+		scrollPane.setBounds(10, 283, 555, 102);
 		frame.getContentPane().add(scrollPane);
-		
-		textPane = new JTextPane();
-		textPane.setEditable(false);
-		scrollPane.setViewportView(textPane);
-		
+		table = new JTable(con.getMostrarTabla());
+		scrollPane.setViewportView(table);
 	}
 }

@@ -2,9 +2,12 @@ package Clases;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+
+import javax.swing.table.DefaultTableModel;
 
 public  class ConectorDB {
 	
@@ -73,24 +76,40 @@ public  class ConectorDB {
 			}
 			return null;
 		}
-	//para mostrar la lista
-		public String mostrarLista() {
-			try {
-				 ResultSet rs =  sttt.executeQuery("select matricula, nombre, carrera from persona");
-				 while(rs.next()) {
-					 return ""+rs.getString("matricula")+", "+rs.getString("nombre")+", "+rs.getString("carrera");
-				 }
-				 System.out.println("actualizando...\n");
-				 
-			} catch (SQLException e) {
-				System.out.print("Error al buscar ...\n"+e);
-			}
-			return null;
-		}
 	
+	//crear tabla 
+		public DefaultTableModel getMostrarTabla() {
+			String [] nombreColumn = {"matricula","nombre","carrera"};
+			String [] registros = new String[3];
+			DefaultTableModel modelo = new DefaultTableModel(null,nombreColumn);
+			String sql = "select * from persona";
+			PreparedStatement pst = null;
+			ResultSet rs = null;
+			
+			try {
+				pst = conexion.prepareStatement(sql);
+				rs = pst.executeQuery();
+				while(rs.next()) {
+					registros[0] = rs.getString("matricula");
+					registros[1] = rs.getString("nombre");
+					registros[2] = rs.getString("carrera");
+					modelo.addRow(registros);
+				}
+			}
+			catch (SQLException e) {
+				System.out.print("Error...\n"+e);
+			}
+			return modelo;
+		}
+		
+	//para retornar solo la conexion 
+		public Connection getconection() {
+			return conexion;
+		}
+		
 	//para desconectar 
 	public void desconectar() {
-		conexion = null;
+		conexion = null;// .close(); para desconectar 
 		if(conexion == null) {System.out.print("Desconectado con exito...\n");}
 	}
 	
